@@ -1,0 +1,9 @@
+user1:
+  username: user1_username
+  password: user1_password
+  account_type: admin
+
+user2:
+  username: user2_username
+  password: user2_password
+  account_type: admin

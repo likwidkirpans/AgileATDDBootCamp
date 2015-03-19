@@ -9,6 +9,6 @@ class SchoolClass
   end
 
   def welcomeMessage
-    puts "Welcome to Class!"
+    puts 'Welcome to Class!'
   end
 end

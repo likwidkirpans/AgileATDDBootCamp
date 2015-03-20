@@ -3,6 +3,7 @@
 
 #%w is the same as ['Nissan', 'Kia', 'Toyota'], it is preferred to
 #use %w()
+
 cars = %w(Nissan Kia Toyota)
 puts 'Direct creation of an Array'
 puts cars[0]
@@ -10,8 +11,11 @@ puts cars[1]
 puts cars[2]
 
 cars.push('Honda')
-puts cars[3]
-cars.delete('Honda')
+puts cars
+
+puts 'delete the kia'
+cars.delete('Kia')
+puts cars
 
 #Another way of creating an array
 my_new_array = Array.new
@@ -24,6 +28,8 @@ puts my_new_array[0]
 puts my_new_array[1]
 puts my_new_array[2]
 
+puts "This is my array: #{my_new_array}"
+
 #Manipulating Arrays
 puts 'Output of manipulated Arrays'
 puts 'Reverse the Array'
@@ -32,6 +38,7 @@ puts 'Sort the Array'
 puts cars.sort
 puts 'Capture the first element of the Array'
 puts cars.first
+
 
 
 

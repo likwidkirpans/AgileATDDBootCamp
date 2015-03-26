@@ -4,10 +4,15 @@
 class HomePage
   include PageObject
 
-  image(:image_author, :class => 'aligncenter size-thumbnail wp-image-219')
-  text_field(:text_search, :name => 's')
-  button(:button_Search_submit, :id => 'searchsubmit')
-  link(:link_about, :href => 'http://watirmelon.com/about/')
-  link(:link_home, :href => 'http://www.watirmelon.com')
+  image(:image_author,                :alt => 'alister_scott')
+  text_field(:text_search,            :name => 's')
+  button(:button_Search_submit,       :id => 'searchsubmit')
+  link(:link_about,                   :href => 'http://watirmelon.com/about/')
+  link(:link_home,                    :href => 'http://www.watirmelon.com')
+  h2(:h2_description,                 :id => 'site-description')
+
+  def return_page_description
+    self.h2_description_element.when_present.text
+  end
 
 end

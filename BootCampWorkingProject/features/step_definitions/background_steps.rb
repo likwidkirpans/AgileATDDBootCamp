@@ -1,5 +1,5 @@
 Given(/^The user has opened a browser$/) do
-  $browser = Watir::Browser.new :chrome, :switches => ['--test-type']
+  $browser = Watir::Browser.new :chrome
 end
 
 And(/^Has navigated to watirmelon\.com$/) do

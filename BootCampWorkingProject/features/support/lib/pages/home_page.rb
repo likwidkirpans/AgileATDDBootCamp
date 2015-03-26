@@ -6,7 +6,7 @@ class HomePage
 
   image(:image_author,                :alt => 'alister_scott')
   text_field(:text_search,            :name => 's')
-  button(:button_Search_submit,       :id => 'searchsubmit')
+  button(:button_search_submit,       :id => 'searchsubmit')
   link(:link_about,                   :href => 'http://watirmelon.com/about/')
   link(:link_home,                    :href => 'http://www.watirmelon.com')
   h2(:h2_description,                 :id => 'site-description')

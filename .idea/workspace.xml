@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e62f202f-e605-4a3f-823c-c248ab71d50e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErrorHandling/begin_rescue_ensure.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/AgileATDDBootCamp.iml" afterPath="$PROJECT_DIR$/.idea/AgileATDDBootCamp.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/about_page.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/support/lib/pages/about_page.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/step_definitions/about_page_steps.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BootCampWorkingProject/data/my_data.yml" />
+      <change type="DELETED" beforePath="C:\Projects\AgileATDDBootCamp\BootCampWorkingProject\data\search_criteria.yml" afterPath="" />
+      <change type="MOVED" beforePath="C:\Projects\AgileATDDBootCamp\BootCampWorkingProject\.idea\runConfigurations\WatirMelonHomePage.xml" afterPath="$PROJECT_DIR$/BootCampWorkingProject/.idea/runConfigurations/WatirMelonHomePage_Scenarios.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/.idea/Cucumber.iml" afterPath="$PROJECT_DIR$/BootCampWorkingProject/.idea/Cucumber.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/.idea/runConfigurations/WatirMelonHomePage.xml" afterPath="$PROJECT_DIR$/BootCampWorkingProject/.idea/runConfigurations/WatirMelonHomePage.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/features/step_definitions/background_steps.rb" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/step_definitions/background_steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/features/home_page.feature" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/home_page.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/features/support/env.rb" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/support/env.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/features/support/lib/pages/home_page.rb" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/support/lib/pages/home_page.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/features/step_definitions/home_page_steps.rb" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/step_definitions/home_page_steps.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -33,7 +36,7 @@
     <SUITE FILE_PATH="coverage/AgileATDDBootCamp@generate_a_class.coverage" NAME="generate_a_class Coverage Results" MODIFIED="1426703267225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOD" MODULE_NAME="AgileATDDBootCamp" />
     <SUITE FILE_PATH="coverage/AgileATDDBootCamp@spreadsheet_example.coverage" NAME="spreadsheet_example Coverage Results" MODIFIED="1426860492324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test_Data" MODULE_NAME="AgileATDDBootCamp" />
     <SUITE FILE_PATH="coverage/AgileATDDBootCamp@hash_example.coverage" NAME="hash_example Coverage Results" MODIFIED="1426805433724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays_And_Hashes" MODULE_NAME="AgileATDDBootCamp" />
-    <SUITE FILE_PATH="coverage/AgileATDDBootCamp@begin_rescue_ensure.coverage" NAME="begin_rescue_ensure Coverage Results" MODIFIED="1427384617886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ErrorHandling" MODULE_NAME="AgileATDDBootCamp" />
+    <SUITE FILE_PATH="coverage/AgileATDDBootCamp@begin_rescue_ensure.coverage" NAME="begin_rescue_ensure Coverage Results" MODIFIED="1427414161916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ErrorHandling" MODULE_NAME="AgileATDDBootCamp" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -130,8 +133,8 @@
       <file leaf-file-name="begin_rescue_ensure.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ErrorHandling/begin_rescue_ensure.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35740072" vertical-offset="0" max-vertical-offset="554">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.23826715" vertical-offset="0" max-vertical-offset="554">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -473,8 +476,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -485,7 +488,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24415584" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24415584" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -902,8 +905,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ErrorHandling/begin_rescue_ensure.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35740072" vertical-offset="0" max-vertical-offset="554">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.23826715" vertical-offset="0" max-vertical-offset="554">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding />
         </state>
       </provider>

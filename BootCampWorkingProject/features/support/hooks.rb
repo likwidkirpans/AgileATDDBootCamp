@@ -9,3 +9,4 @@ After do #|scenario|
   #end
   $browser.close
 end
+

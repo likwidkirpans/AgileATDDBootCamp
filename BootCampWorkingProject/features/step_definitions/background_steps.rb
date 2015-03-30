@@ -9,3 +9,5 @@ end
 And(/^Has navigated to the Watir About page$/) do
   $browser.goto 'http://watirmelon.com/about/'
 end
+
+

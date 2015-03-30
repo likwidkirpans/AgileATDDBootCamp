@@ -18,4 +18,8 @@ Then(/^The user lands on the About page$/) do
   expect($browser.url).to eq 'http://watirmelon.com/about/'
 end
 
+Then(/^The page title should be "WatirMelon \| A 93% Software Testing Blog by Alister Scott"$/) do
+  expect($browser.title).to eq $data_file['page_elements']['page_title']
+end
+
 

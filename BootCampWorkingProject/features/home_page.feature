@@ -19,3 +19,11 @@ Feature: Access elements on the watirmelon homepage
     Given The user has landed on watirmelon.com
     When The user clicks on the About link
     Then The user lands on the About page
+
+  @4
+  Scenario: Verify the page title
+    Given The user has landed on watirmelon.com
+    Then The page title should be "WatirMelon | A 93% Software Testing Blog by Alister Scott"
+
+
+

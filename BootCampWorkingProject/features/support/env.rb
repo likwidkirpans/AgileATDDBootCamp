@@ -4,5 +4,9 @@ require 'page-object'
 require 'rspec'
 
 World(PageObject)
-Dir["../lib/pages/*.rb"].each {|file| require file}
+Dir['../lib/pages/*.rb'].each {|file| require file}
 $data_file = YAML.load_file('data/my_data.yml')
+
+
+
+

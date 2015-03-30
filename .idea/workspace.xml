@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e62f202f-e605-4a3f-823c-c248ab71d50e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/about_page.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/support/lib/pages/about_page.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/step_definitions/about_page_steps.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BootCampWorkingProject/data/my_data.yml" />
-      <change type="DELETED" beforePath="C:\Projects\AgileATDDBootCamp\BootCampWorkingProject\data\search_criteria.yml" afterPath="" />
-      <change type="MOVED" beforePath="C:\Projects\AgileATDDBootCamp\BootCampWorkingProject\.idea\runConfigurations\WatirMelonHomePage.xml" afterPath="$PROJECT_DIR$/BootCampWorkingProject/.idea/runConfigurations/WatirMelonHomePage_Scenarios.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BootCampWorkingProject/.idea/runConfigurations/WatirMelonAboutPage_Scenarios.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BootCampWorkingProject/.idea/runConfigurations/WatirMelonAllFeatures.xml" />
+      <change type="DELETED" beforePath="C:\Projects\AgileATDDBootCamp\BootCampWorkingProject\.idea\runConfigurations\WatirMelonHomePage.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/.idea/Cucumber.iml" afterPath="$PROJECT_DIR$/BootCampWorkingProject/.idea/Cucumber.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/Gemfile" afterPath="$PROJECT_DIR$/BootCampWorkingProject/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/.idea/runConfigurations/WatirMelonHomePage_Scenarios.xml" afterPath="$PROJECT_DIR$/BootCampWorkingProject/.idea/runConfigurations/WatirMelonHomePage_Scenarios.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/features/about_page.feature" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/about_page.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/features/support/lib/pages/about_page.rb" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/support/lib/pages/about_page.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/features/step_definitions/about_page_steps.rb" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/step_definitions/about_page_steps.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/features/step_definitions/background_steps.rb" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/step_definitions/background_steps.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/features/support/env.rb" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/support/env.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/features/home_page.feature" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/home_page.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/features/support/lib/pages/home_page.rb" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/support/lib/pages/home_page.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/features/step_definitions/home_page_steps.rb" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/step_definitions/home_page_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/features/support/hooks.rb" afterPath="$PROJECT_DIR$/BootCampWorkingProject/features/support/hooks.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/data/my_data.yml" afterPath="$PROJECT_DIR$/BootCampWorkingProject/data/my_data.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/reports.html" afterPath="$PROJECT_DIR$/BootCampWorkingProject/reports.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BootCampWorkingProject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/BootCampWorkingProject/.idea/workspace.xml" />
     </list>
@@ -26,15 +32,15 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/AgileATDDBootCamp@yaml_example.coverage" NAME="yaml_example Coverage Results" MODIFIED="1426633196149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test_Data" MODULE_NAME="AgileATDDBootCamp" />
     <SUITE FILE_PATH="coverage/AgileATDDBootCamp@WatirMelon_HomePage.coverage" NAME="WatirMelon_HomePage Coverage Results" MODIFIED="1426710380709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="AgileATDDBootCamp" />
-    <SUITE FILE_PATH="coverage/AgileATDDBootCamp@csv_example.coverage" NAME="csv_example Coverage Results" MODIFIED="1426634154813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test_Data" MODULE_NAME="AgileATDDBootCamp" />
+    <SUITE FILE_PATH="coverage/AgileATDDBootCamp@yaml_example.coverage" NAME="yaml_example Coverage Results" MODIFIED="1426633196149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test_Data" MODULE_NAME="AgileATDDBootCamp" />
     <SUITE FILE_PATH="coverage/AgileATDDBootCamp@arrays_example.coverage" NAME="arrays_example Coverage Results" MODIFIED="1426804948640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays_And_Hashes" MODULE_NAME="AgileATDDBootCamp" />
+    <SUITE FILE_PATH="coverage/AgileATDDBootCamp@csv_example.coverage" NAME="csv_example Coverage Results" MODIFIED="1426634154813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test_Data" MODULE_NAME="AgileATDDBootCamp" />
     <SUITE FILE_PATH="coverage/AgileATDDBootCamp@numbers.coverage" NAME="numbers Coverage Results" MODIFIED="1426629482342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ruby_Strings_And_Numbers" MODULE_NAME="AgileATDDBootCamp" />
     <SUITE FILE_PATH="coverage/AgileATDDBootCamp@ifs_and_loops.coverage" NAME="loops Coverage Results" MODIFIED="1426699088814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ruby_Strings_And_Numbers" MODULE_NAME="AgileATDDBootCamp" />
-    <SUITE FILE_PATH="coverage/AgileATDDBootCamp@strings_and_numbers.coverage" NAME="strings_and_numbers Coverage Results" MODIFIED="1426697375451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ruby_Strings_And_Numbers" MODULE_NAME="AgileATDDBootCamp" />
-    <SUITE FILE_PATH="coverage/AgileATDDBootCamp@generate_a_class.coverage" NAME="generate_a_class Coverage Results" MODIFIED="1426703267225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOD" MODULE_NAME="AgileATDDBootCamp" />
     <SUITE FILE_PATH="coverage/AgileATDDBootCamp@spreadsheet_example.coverage" NAME="spreadsheet_example Coverage Results" MODIFIED="1426860492324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test_Data" MODULE_NAME="AgileATDDBootCamp" />
+    <SUITE FILE_PATH="coverage/AgileATDDBootCamp@generate_a_class.coverage" NAME="generate_a_class Coverage Results" MODIFIED="1426703267225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOD" MODULE_NAME="AgileATDDBootCamp" />
+    <SUITE FILE_PATH="coverage/AgileATDDBootCamp@strings_and_numbers.coverage" NAME="strings_and_numbers Coverage Results" MODIFIED="1426697375451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ruby_Strings_And_Numbers" MODULE_NAME="AgileATDDBootCamp" />
     <SUITE FILE_PATH="coverage/AgileATDDBootCamp@hash_example.coverage" NAME="hash_example Coverage Results" MODIFIED="1426805433724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Arrays_And_Hashes" MODULE_NAME="AgileATDDBootCamp" />
     <SUITE FILE_PATH="coverage/AgileATDDBootCamp@begin_rescue_ensure.coverage" NAME="begin_rescue_ensure Coverage Results" MODIFIED="1427414161916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ErrorHandling" MODULE_NAME="AgileATDDBootCamp" />
   </component>
@@ -133,8 +139,8 @@
       <file leaf-file-name="begin_rescue_ensure.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ErrorHandling/begin_rescue_ensure.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23826715" vertical-offset="0" max-vertical-offset="554">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.20619947" vertical-offset="0" max-vertical-offset="742">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -181,8 +187,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="1777" />
+    <option name="y" value="59" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
@@ -212,7 +218,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -231,8 +236,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AgileATDDBootCamp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AgileATDDBootCamp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErrorHandling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -476,27 +496,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <frame x="1777" y="59" width="1616" height="876" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.145625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24415584" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24415584" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -905,8 +925,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ErrorHandling/begin_rescue_ensure.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23826715" vertical-offset="0" max-vertical-offset="554">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.20619947" vertical-offset="0" max-vertical-offset="742">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>

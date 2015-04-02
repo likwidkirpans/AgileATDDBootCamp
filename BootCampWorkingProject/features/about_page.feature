@@ -13,11 +13,14 @@ Feature: Accessing elements on the about page
   @6
   Scenario Outline: Search capability across multiple inputs
     Given The user has landed on the About page
-    When Execution of the search term <input>
-    Then The page title should include <output>
+    When Execution of the search term <SearchInput>
+    Then The page title should include <ExpectedOutput>
 
     Examples:
-    |input      |output        |
-    |ruby       |RUBY          |
-    |watirmelon |WATIRMELON    |
+    |SearchInput|ExpectedOutput|
+    |ruby       |ruby          |
+    |watirmelon |watirmelon    |
+
+
+
 

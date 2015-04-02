@@ -17,7 +17,7 @@ When(/^Execution of the search term (.*)$/) do |value|
 end
 
 Then(/^The page title should include (.*)$/) do |arg|
-  expect(@about_page.return_page_title).to include arg
+  expect(@about_page.return_page_title).to include arg.upcase
 end
 
 

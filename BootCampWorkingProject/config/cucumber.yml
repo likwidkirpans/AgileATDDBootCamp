@@ -1,0 +1,3 @@
+default: --color -r features BROWSER=chrome
+chrome: --color -r features BROWSER=chrome URL=http://watirmelon.com/
+ff: --color -r features BROWSER=ff URL=http://watirmelon.com/
